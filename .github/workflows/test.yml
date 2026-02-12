@@ -34,6 +34,17 @@ jobs:
         cache: 'npm'
         cache-dependency-path: '**/package-lock.json'
 
+    - name: Install Dart Sass
+      run:  |
+        if [ "$RUNNER_OS" == "Linux" ]; then
+          sudo snap install dart-sass
+        elif [ "$RUNNER_OS" == "macOS" ]; then
+          brew install sass/sass/sass
+        elif [ "$RUNNER_OS" == "Windows" ]; then
+          choco install sass
+        fi
+      shell: bash
+
     - name: Perform clean install of npm
       run: npm ci
 
