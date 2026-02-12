@@ -1,5 +1,5 @@
-module github.com/gethinode/mod-template/exampleSite
+module github.com/gethinode/mod-bootstrap-icons-test
 
 go 1.19
 
-require github.com/gethinode/mod-template v0.0.0-20260212035214-a108d8b0fff1 // indirect
+require github.com/gethinode/mod-fontawesome/v4 v4.0.3 // indirect

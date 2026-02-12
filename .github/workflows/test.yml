@@ -1,20 +1,19 @@
 name: Test
 on:
   workflow_dispatch:
-  # TODO: uncomment
-  # push:
-  #   tags:
-  #     - v*
-  #   branches: [ main ]
-  # pull_request:
-  #   branches: [ main ]
+  push:
+    tags:
+      - v*
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
     strategy:
       matrix:
         os: [macos-latest, windows-latest, ubuntu-latest]
-        node-version: [20.x, 22.x]
+        node-version: [22.x, 24.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     runs-on: ${{ matrix.os }}
@@ -34,6 +33,17 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: '**/package-lock.json'
+
+    - name: Install Dart Sass
+      run:  |
+        if [ "$RUNNER_OS" == "Linux" ]; then
+          sudo snap install dart-sass
+        elif [ "$RUNNER_OS" == "macOS" ]; then
+          brew install sass/sass/sass
+        elif [ "$RUNNER_OS" == "Windows" ]; then
+          choco install sass
+        fi
+      shell: bash
 
     - name: Perform clean install of npm
       run: npm ci
