@@ -1,14 +1,26 @@
 [module]
   [module.hugoVersion]
     extended = true
-    min = "0.110.0"
-    max = ""
+    min = "0.153.0"
   [[module.mounts]]
-    source = 'layouts'
-    target = 'layouts'
+    source = "node_modules/bootstrap-icons/font/fonts"
+    target = "static/webfonts"
   [[module.mounts]]
-    source = 'assets'
-    target = 'assets'
+    source = "node_modules/bootstrap-icons/font"
+    target = "assets/scss/modules/bootstrap-icons"
+    files = ["*.scss"]
   [[module.mounts]]
-    source = 'static'
-    target = 'static'
+    source = "node_modules/bootstrap-icons/icons"
+    target = "assets/svgs/bi"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+[params.modules.bootstrap-icons]
+  integration = "core"
+
+[params.modules.fontawesome]
+  embed = true
+  inline = false
+  debug = true
+  skipMissing = false

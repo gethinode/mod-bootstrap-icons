@@ -1,5 +1,5 @@
 {
-  "name": "@gethinode/mod-template",
+  "name": "@gethinode/mod-bootstrap-icons",
   "version": "0.0.0-semantically-released",
   "description": "A template to define a Hugo module compatible with Hinode",
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gethinode/mod-template.git"
+    "url": "git+https://github.com/gethinode/mod-bootstrap-icons.git"
   },
   "author": "Mark Dumay",
   "license": "MIT",
@@ -36,6 +36,9 @@
     "url": "https://github.com/gethinode/hinode/issues"
   },
   "homepage": "https://gethinode.com",
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1"
+  },
   "devDependencies": {
     "@commitlint/cli": "^20.4.1",
     "@commitlint/config-conventional": "^20.4.1",
@@ -44,13 +47,9 @@
     "commitizen": "^4.3.1",
     "cpy-cli": "^7.0.0",
     "cz-conventional-changelog": "^3.3.0",
-    "hugo-bin": "^0.149.2",
     "husky": "^9.1.7",
     "rimraf": "^6.1.2",
     "semantic-release": "^25.0.3"
-  },
-  "hugo-bin": {
-    "buildTags": "extended"
   },
   "release": {
     "branches": "main",

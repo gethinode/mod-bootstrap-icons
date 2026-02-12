@@ -1,0 +1,5 @@
+// Override font directory to match Hugo's static mount
+$bootstrap-icons-font-dir: "/webfonts";
+
+// Import Bootstrap Icons webfont
+@import "modules/bootstrap-icons/bootstrap-icons";
