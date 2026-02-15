@@ -2,6 +2,7 @@
 /public
 /resources
 node_modules/
+exampleSite/_vendor
 exampleSite/public
 exampleSite/resources
 
