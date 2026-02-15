@@ -22,9 +22,9 @@
       <strong>📊 Rendering Mode:</strong>
       <p style="margin: 10px 0;">
         {{- if site.Params.modules.fontawesome.inline -}}
-        <strong style="color: #0066cc;">SVG Mode</strong> - FontAwesome uses SVG+JS, Bootstrap Icons use static SVG
+        <strong style="color: #0066cc;">SVG+JS Mode</strong> - FontAwesome uses SVG+JS runtime library, Bootstrap Icons use static SVG
         {{- else -}}
-        <strong style="color: #0066cc;">Webfont Mode</strong> - Both FontAwesome and Bootstrap Icons rendered as webfonts
+        <strong style="color: #0066cc;">Webfont Mode</strong> - Both FontAwesome and Bootstrap Icons rendered as webfonts via CSS
         {{- end -}}
       </p>
     </div>
@@ -35,6 +35,5 @@
   {{ end }}
   {{- partial "assets/symbols.html" . -}}
   {{- partial "footer/scripts.html" (dict "page" .) -}}
-  {{- partial "footer/fontawesome-js.html" . -}}
 </body>
 </html>

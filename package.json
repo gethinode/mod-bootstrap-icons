@@ -36,9 +36,7 @@
     "url": "https://github.com/gethinode/hinode/issues"
   },
   "homepage": "https://gethinode.com",
-  "dependencies": {
-    "bootstrap-icons": "^1.13.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^20.4.1",
     "@commitlint/config-conventional": "^20.4.1",
