@@ -17,15 +17,27 @@
     )}}
 {{ end }}
 
-<!-- Initialize arguments -->
-{{- $icon := cond .IsNamedParams (or $args.icon $args.class) (delimit .Params " ") -}}
-{{- $spacing := $args.spacing | default true -}}
-{{- if not $icon -}}
-    {{ partial (cond $args.err "utilities/LogErr.html" "utilities/LogWarn.html") (dict
+<!-- Build icon string with family prefix -->
+{{- $icon := $args.icon -}}
+{{- $class := $args.class -}}
+
+{{/* For positional args with 2+ args, join all args after icon as modifiers */}}
+{{- if and (not .IsNamedParams) (ge (len .Params) 2) -}}
+    {{- $class = delimit (after 1 .Params) " " -}}
+{{- end -}}
+
+{{- $fullIcon := "" -}}
+{{- if and $icon $class -}}
+    {{- $fullIcon = printf "bi %s %s" $icon $class -}}
+{{- else if $icon -}}
+    {{- $fullIcon = printf "bi %s" $icon -}}
+{{- end -}}
+
+{{- $spacing := $args.spacing | default (not (in (split $args.wrapper " ") "fa-li")) -}}
+{{- if not $fullIcon -}}
+    {{ partial "utilities/LogErr.html" (dict
         "partial"  "shortcodes/bi.html"
-        "warnid"   "warn-invalid-arguments"
-        "msg"      "Invalid arguments"
-        "details"  (slice "Expected icon name")
+        "msg"      "Missing icon name"
         "file"     page.File
         "position" .Position
     )}}
@@ -35,7 +47,7 @@
 <!-- Main code -->
 {{- if not $error -}}
     {{- partial "assets/icon.html" (dict
-        "icon"         (printf "bi %s" $icon)
+        "icon"         $fullIcon
         "inline-style" (or $args.inlineStyle $args.style)
         "wrapper"      $args.wrapper
         "spacing"      $spacing
