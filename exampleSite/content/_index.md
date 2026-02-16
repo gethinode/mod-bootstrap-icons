@@ -4,6 +4,20 @@ description: Site to test Bootstrap Icons module.
 date: 2023-08-02
 ---
 
+## About This Test Site
+
+This example site demonstrates the Bootstrap Icons module for Hinode, which extends the mod-fontawesome module to provide Bootstrap Icons support.
+
+### Rendering Modes (v4.2.0+)
+
+The module supports three rendering modes via the `params.modules.fontawesome.mode` parameter:
+
+- **"symbols"** - Static SVG symbols/sprites (no JavaScript required, recommended)
+- **"svg"** - FontAwesome SVG+JS runtime library
+- **"webfonts"** - CSS-based webfont rendering (no JavaScript required)
+
+Current mode is shown in the configuration panel above.
+
 ## Bootstrap Icons
 
 ### Basic icons

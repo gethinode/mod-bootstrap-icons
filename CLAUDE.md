@@ -49,7 +49,7 @@ npx git-cz             # Interactive commit with Conventional Commits format
 1. This module extends mod-fontawesome - both modules MUST be imported together
 2. Bootstrap Icons are integrated using the same infrastructure as FontAwesome
 3. Icons can be used via Hinode's icon shortcode system (e.g., `{{< icon bi bootstrap >}}`)
-4. The module provides both webfont and SVG rendering modes
+4. The module supports three rendering modes via the FontAwesome infrastructure: symbols (static SVG sprites), svg (FontAwesome SVG+JS), and webfonts (CSS-based)
 5. Hugo workspaces (`exampleSite/mod-bootstrap-icons.work`) allow local development without publishing
 
 ### Key Files
@@ -90,10 +90,11 @@ When used in a Hinode site, both modules must be imported:
 ```
 
 The module inherits FontAwesome configuration parameters:
-- `params.modules.fontawesome.embed`: Embed icon fonts
-- `params.modules.fontawesome.inline`: Use inline SVGs
+- `params.modules.fontawesome.mode`: Icon rendering mode - "symbols" (static SVG sprites), "svg" (FontAwesome SVG+JS), or "webfonts" (CSS-based fonts)
 - `params.modules.fontawesome.debug`: Enable debug logging
 - `params.modules.fontawesome.skipMissing`: Skip missing icons without errors
+
+Note: The legacy `inline` and `embed` parameters are deprecated as of mod-fontawesome v4.2.0 in favor of the unified `mode` parameter.
 
 ## Testing
 
