@@ -18,7 +18,6 @@ block = true
     path = "github.com/gethinode/mod-fontawesome/v4"
 
 [params.modules.fontawesome]
-  inline = true
-  embed = true
+  mode = "symbols"
   debug = false
   skipMissing = false
