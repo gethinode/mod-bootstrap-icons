@@ -43,7 +43,7 @@ This module is an extension to the [FontAwesome](https://fontawesome.com/) modul
   [[module.imports]]
     path = "github.com/gethinode/mod-bootstrap-icons"
   [[module.imports]]
-    path = "github.com/gethinode/mod-fontawesome/v4"
+    path = "github.com/gethinode/mod-fontawesome/v5"
 ```
 
 ## Contributing

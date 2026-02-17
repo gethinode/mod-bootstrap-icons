@@ -909,6 +909,8 @@ github.com/gethinode/mod-fontawesome/v4 v4.3.0 h1:eBwL1Qf8qOPw35POza7b4JqULKbC8R
 github.com/gethinode/mod-fontawesome/v4 v4.3.0/go.mod h1:ydBxVGrcZXn9Vcbm6H5ye9iHez5SQweDYNx7b+Ch3Rc=
 github.com/gethinode/mod-fontawesome/v4 v4.3.1 h1:DEJymyTtLrFChdznFYe0snml52UwUSfTCfpmA/yG3fU=
 github.com/gethinode/mod-fontawesome/v4 v4.3.1/go.mod h1:ydBxVGrcZXn9Vcbm6H5ye9iHez5SQweDYNx7b+Ch3Rc=
+github.com/gethinode/mod-fontawesome/v5 v5.0.1 h1:389kvbggR+82MO5vGuJMaFOcK/FDb0Zm84zeDLeyVoI=
+github.com/gethinode/mod-fontawesome/v5 v5.0.1/go.mod h1:kWtFDsfhs1Q/tqa5p8bzSlFKN8R0hwHG/IYYBF6AM7E=
 github.com/gethinode/mod-utils/v5 v5.8.0 h1:HVvFX9iyV3NR3j9uQ6+F96rXr+TsKjMqzwY06XYwZE8=
 github.com/gethinode/mod-utils/v5 v5.8.0/go.mod h1:PwQN4oOjA6k/vet11JueJ9asZMgL0DBa3jyS9tPkBWU=
 github.com/twbs/icons v1.13.1 h1:6bmNXvoeIbvjFWjfbjXg5JGbelLD1haIsMaEIzE9UZI=

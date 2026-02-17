@@ -13,7 +13,7 @@ This example site demonstrates the Bootstrap Icons module for Hinode, which exte
 The module supports three rendering modes via the `params.modules.fontawesome.mode` parameter:
 
 - **"symbols"** - Static SVG symbols/sprites (no JavaScript required, recommended)
-- **"svg"** - FontAwesome SVG+JS runtime library
+- **"svg"** - Build-time inline SVG (no JavaScript required)
 - **"webfonts"** - CSS-based webfont rendering (no JavaScript required)
 
 Current mode is shown in the configuration panel above.
