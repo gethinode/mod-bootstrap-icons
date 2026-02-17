@@ -896,6 +896,8 @@ github.com/gethinode/mod-bootstrap-icons v1.1.0 h1:IICxliBOZZyrbmfozgL+AH57vvYv5
 github.com/gethinode/mod-bootstrap-icons v1.1.0/go.mod h1:mGGhla/hXmq/M2eB8IqkTCUkqeOjJOyAR2sLiCfDWqQ=
 github.com/gethinode/mod-bootstrap-icons v1.2.0 h1:Ss2kmLFHLZitUZ2Y9jDwlRKBT8FhQBiJakDKyPmmZdk=
 github.com/gethinode/mod-bootstrap-icons v1.2.0/go.mod h1:FzflTtCyd+VD/lfoD6r3uJ3blngq7jRMLkRoWcprah0=
+github.com/gethinode/mod-bootstrap-icons v1.3.0 h1:keVHskB1nIUxqXvwKZVwtGRGJkV/F687gC9hLfFOsFA=
+github.com/gethinode/mod-bootstrap-icons v1.3.0/go.mod h1:1yQV555Gb/SItD9aoDVhDs2/0zm41Ze6Q0DclYBomTY=
 github.com/gethinode/mod-fontawesome/v3 v3.1.3 h1:xlwmdgulIV/IMj5I1/fH4tPM1/AU0OYZ4vepQiJbOYA=
 github.com/gethinode/mod-fontawesome/v3 v3.1.3/go.mod h1:+E6jSVNv7h6oXw4Wm1XRq8HBEB2WrvxCPkp6u4vY5xo=
 github.com/gethinode/mod-fontawesome/v4 v4.0.3/go.mod h1:EqAF4dW3gyUr/CsNND5lEPJcNRlLJ+GfPIUaGTaVRic=
@@ -911,6 +913,8 @@ github.com/gethinode/mod-fontawesome/v4 v4.3.1 h1:DEJymyTtLrFChdznFYe0snml52UwUS
 github.com/gethinode/mod-fontawesome/v4 v4.3.1/go.mod h1:ydBxVGrcZXn9Vcbm6H5ye9iHez5SQweDYNx7b+Ch3Rc=
 github.com/gethinode/mod-fontawesome/v5 v5.0.1 h1:389kvbggR+82MO5vGuJMaFOcK/FDb0Zm84zeDLeyVoI=
 github.com/gethinode/mod-fontawesome/v5 v5.0.1/go.mod h1:kWtFDsfhs1Q/tqa5p8bzSlFKN8R0hwHG/IYYBF6AM7E=
+github.com/gethinode/mod-fontawesome/v5 v5.0.2 h1:CwCPLjIcFUD3yYSBr9rfOleNRb4LzLVjefoAFAkVnwc=
+github.com/gethinode/mod-fontawesome/v5 v5.0.2/go.mod h1:kWtFDsfhs1Q/tqa5p8bzSlFKN8R0hwHG/IYYBF6AM7E=
 github.com/gethinode/mod-utils/v5 v5.8.0 h1:HVvFX9iyV3NR3j9uQ6+F96rXr+TsKjMqzwY06XYwZE8=
 github.com/gethinode/mod-utils/v5 v5.8.0/go.mod h1:PwQN4oOjA6k/vet11JueJ9asZMgL0DBa3jyS9tPkBWU=
 github.com/twbs/icons v1.13.1 h1:6bmNXvoeIbvjFWjfbjXg5JGbelLD1haIsMaEIzE9UZI=
