@@ -23,10 +23,14 @@
       source = "icons"
       target = "assets/svgs/bi"
 
-  # Mount module's own assets
+  # Mount module's own assets and layouts
   [[module.mounts]]
     source = "assets"
     target = "assets"
+
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
 
   # Import FontAwesome module
   [[module.imports]]
