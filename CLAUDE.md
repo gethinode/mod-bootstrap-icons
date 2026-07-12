@@ -84,9 +84,9 @@ When used in a Hinode site, both modules must be imported:
 ```toml
 [module]
   [[module.imports]]
-    path = "github.com/gethinode/mod-bootstrap-icons"
+    path = "github.com/gethinode/mod-bootstrap-icons/v2"
   [[module.imports]]
-    path = "github.com/gethinode/mod-fontawesome/v5"
+    path = "github.com/gethinode/mod-fontawesome/v6"
 ```
 
 The module inherits FontAwesome configuration parameters:

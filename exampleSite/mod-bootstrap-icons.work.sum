@@ -1,4 +1,6 @@
-github.com/gethinode/mod-fontawesome/v4 v4.0.3 h1:ml+V7YPkxsK5sPJz0OlheBlGdEZrry4aH/7M/ytz3zk=
-github.com/gethinode/mod-fontawesome/v4 v4.0.3/go.mod h1:EqAF4dW3gyUr/CsNND5lEPJcNRlLJ+GfPIUaGTaVRic=
-github.com/gethinode/mod-utils/v5 v5.8.0 h1:HVvFX9iyV3NR3j9uQ6+F96rXr+TsKjMqzwY06XYwZE8=
-github.com/gethinode/mod-utils/v5 v5.8.0/go.mod h1:PwQN4oOjA6k/vet11JueJ9asZMgL0DBa3jyS9tPkBWU=
+github.com/FortAwesome/Font-Awesome v0.0.0-20260625220317-70fb2dd154b6 h1:slcJCZg0UQMHqw5JCoVmE8/IJfoNUprTmP2T3lDG9VY=
+github.com/FortAwesome/Font-Awesome v0.0.0-20260625220317-70fb2dd154b6/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
+github.com/gethinode/mod-fontawesome/v6 v6.0.0 h1:PrfiMfVEAM5Lpnkp+sXOtOdRSOe3l56z+ngrPcACzlA=
+github.com/gethinode/mod-fontawesome/v6 v6.0.0/go.mod h1:ayMslv2xpC5cjxUVTkIlFBbOd1LM5ezIr0OSOr6q8Gk=
+github.com/gethinode/mod-utils/v6 v6.0.1 h1:EnmMHjqnI/xyHPXFj1SdRLfVxNunJcKLGVtSAAFTQ8w=
+github.com/gethinode/mod-utils/v6 v6.0.1/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=

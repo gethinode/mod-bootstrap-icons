@@ -3,9 +3,6 @@ module github.com/gethinode/mod-bootstrap-icons-test
 go 1.19
 
 require (
-	github.com/FortAwesome/Font-Awesome v4.7.0+incompatible // indirect
-	github.com/gethinode/mod-bootstrap-icons v1.4.4 // indirect
-	github.com/gethinode/mod-fontawesome/v5 v5.1.1 // indirect
-	github.com/gethinode/mod-utils/v5 v5.23.4 // indirect
-	github.com/twbs/icons v1.13.1 // indirect
+	github.com/gethinode/mod-fontawesome/v6 v6.0.0 // indirect
+	github.com/gethinode/mod-utils/v6 v6.0.1 // indirect
 )
