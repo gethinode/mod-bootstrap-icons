@@ -30,6 +30,9 @@ Current mode is shown in the configuration panel above.
 {{< bi alarm fa-4x >}}
 {{< bi heart-fill fa-4x >}}
 
+### Multiple positional modifier classes
+{{< bi heart-fill fa-spin fa-2x >}}
+
 ## FontAwesome Icons
 
 ### Using fas shortcode
