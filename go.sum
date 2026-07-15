@@ -10,5 +10,7 @@ github.com/gethinode/mod-utils/v6 v6.4.0 h1:l49KrawKE/7c6XE00wXQ9T5/kuTfiETerBz6
 github.com/gethinode/mod-utils/v6 v6.4.0/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
 github.com/gethinode/mod-utils/v6 v6.4.1 h1:jHiJEwSjLp6tqIXayxUQTxILwnM7hWMgYyTYhxFE3ZA=
 github.com/gethinode/mod-utils/v6 v6.4.1/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
+github.com/gethinode/mod-utils/v6 v6.5.0 h1:NdeITAfjt2ah9OHt0Nuu6F+STlC0bO9oHaFl8Agi2rk=
+github.com/gethinode/mod-utils/v6 v6.5.0/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
 github.com/twbs/icons v1.13.1 h1:6bmNXvoeIbvjFWjfbjXg5JGbelLD1haIsMaEIzE9UZI=
 github.com/twbs/icons v1.13.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
