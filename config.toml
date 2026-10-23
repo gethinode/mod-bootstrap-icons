@@ -14,9 +14,8 @@
 
     # Mount Bootstrap Icons SCSS
     [[module.imports.mounts]]
-      source = "font"
-      target = "assets/scss/modules/bootstrap-icons"
-      includeFiles = ["*.scss"]
+      source = "font/bootstrap-icons.scss"
+      target = "assets/scss/modules/bootstrap-icons/bootstrap-icons.scss"
 
     # Mount Bootstrap Icons SVGs
     [[module.imports.mounts]]
