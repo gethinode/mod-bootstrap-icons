@@ -8,6 +8,8 @@ github.com/gethinode/mod-bootstrap-icons/v2 v2.0.1 h1:shq4Gb48U3h9xYUpq+FSHWz/eu
 github.com/gethinode/mod-bootstrap-icons/v2 v2.0.1/go.mod h1:oRJGGe/EP/DRynePDHtaiC9ONR58+Jbm1c46Cgv0+jw=
 github.com/gethinode/mod-bootstrap-icons/v2 v2.0.2 h1:KTQBwRB/1zRO3aS61bH2NNl/uTzelDLFxDjWbrqVKFc=
 github.com/gethinode/mod-bootstrap-icons/v2 v2.0.2/go.mod h1:oWYYQyAQgOFwrWwBZ8V+ztMCE7XmNTFbcmh28GWO2IA=
+github.com/gethinode/mod-bootstrap-icons/v2 v2.0.3 h1:EisskJ88HIHEyb2iS3IMoVZllgxZd6+RtTPX+3L8bXo=
+github.com/gethinode/mod-bootstrap-icons/v2 v2.0.3/go.mod h1:kHpw4Jlnj4fZuGnjnvygBLMam4JJX8okVjse2lQa3Qo=
 github.com/gethinode/mod-fontawesome/v6 v6.0.0 h1:PrfiMfVEAM5Lpnkp+sXOtOdRSOe3l56z+ngrPcACzlA=
 github.com/gethinode/mod-fontawesome/v6 v6.0.0/go.mod h1:ayMslv2xpC5cjxUVTkIlFBbOd1LM5ezIr0OSOr6q8Gk=
 github.com/gethinode/mod-fontawesome/v6 v6.0.1 h1:Wq51kwbtlZYjLQdSbLjn1Qjf4ZkmGIbYrwxlO2vt9Q8=
