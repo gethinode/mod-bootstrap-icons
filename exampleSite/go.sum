@@ -10,6 +10,8 @@ github.com/gethinode/mod-bootstrap-icons/v2 v2.0.2 h1:KTQBwRB/1zRO3aS61bH2NNl/uT
 github.com/gethinode/mod-bootstrap-icons/v2 v2.0.2/go.mod h1:oWYYQyAQgOFwrWwBZ8V+ztMCE7XmNTFbcmh28GWO2IA=
 github.com/gethinode/mod-bootstrap-icons/v2 v2.0.3 h1:EisskJ88HIHEyb2iS3IMoVZllgxZd6+RtTPX+3L8bXo=
 github.com/gethinode/mod-bootstrap-icons/v2 v2.0.3/go.mod h1:kHpw4Jlnj4fZuGnjnvygBLMam4JJX8okVjse2lQa3Qo=
+github.com/gethinode/mod-bootstrap-icons/v2 v2.0.4 h1:72pOQuR2Cm1H1W4u+H2r6Fvl+i7auGiVAQx3652ssMQ=
+github.com/gethinode/mod-bootstrap-icons/v2 v2.0.4/go.mod h1:+BOja6ukuvx8bvX3HxQqPvSapuIgp7hmV5nWf6zN7dY=
 github.com/gethinode/mod-fontawesome/v6 v6.0.0 h1:PrfiMfVEAM5Lpnkp+sXOtOdRSOe3l56z+ngrPcACzlA=
 github.com/gethinode/mod-fontawesome/v6 v6.0.0/go.mod h1:ayMslv2xpC5cjxUVTkIlFBbOd1LM5ezIr0OSOr6q8Gk=
 github.com/gethinode/mod-fontawesome/v6 v6.0.1 h1:Wq51kwbtlZYjLQdSbLjn1Qjf4ZkmGIbYrwxlO2vt9Q8=
@@ -26,6 +28,8 @@ github.com/gethinode/mod-fontawesome/v6 v6.1.4 h1:6ppascnfF0Fy9csHLp2iVZVYhaguOO
 github.com/gethinode/mod-fontawesome/v6 v6.1.4/go.mod h1:VOzKLFEqI4O13IFZrKXOXFFHs26o8PgQtdv9fYUaxqA=
 github.com/gethinode/mod-fontawesome/v6 v6.1.5 h1:HqaAIP9O4y0OxhQFYjCMA57bP1qo04W6/ROpMSRmIkk=
 github.com/gethinode/mod-fontawesome/v6 v6.1.5/go.mod h1:RkWYBkqHFEgsLAX4N7d1lS0Ie2Z94h+8qDrMxT6H6sE=
+github.com/gethinode/mod-fontawesome/v6 v6.1.6 h1:PS7Get+WBVsc4m08r5bekp5XxpuxvQbwSefpr4rXXbs=
+github.com/gethinode/mod-fontawesome/v6 v6.1.6/go.mod h1:OCNEXec0aLUz4BdZBiDeoQTgWXlxmiJiqdBGO/8EbWQ=
 github.com/gethinode/mod-utils/v6 v6.0.1/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
 github.com/gethinode/mod-utils/v6 v6.4.0 h1:l49KrawKE/7c6XE00wXQ9T5/kuTfiETerBz6OWn3SJc=
 github.com/gethinode/mod-utils/v6 v6.4.0/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
@@ -71,6 +75,8 @@ github.com/gethinode/mod-utils/v6 v6.18.2 h1:8B8zHY2dDMzIpYqP3VF9KwaZvph8gKiP7o4
 github.com/gethinode/mod-utils/v6 v6.18.2/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
 github.com/gethinode/mod-utils/v6 v6.18.3 h1:ldooDM1dDeMT7bVgaG+czFC32GimXPfeJiUqwLhqd5g=
 github.com/gethinode/mod-utils/v6 v6.18.3/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
+github.com/gethinode/mod-utils/v6 v6.18.4 h1:ORAsRu43l2JOkEu4twCls2SIGBjKwy3z53Vc/WSfUVw=
+github.com/gethinode/mod-utils/v6 v6.18.4/go.mod h1:E5tO9w3VKaidJpu1nI8zAKmh0bddFHOIIQnudAaXQTs=
 github.com/twbs/icons v1.13.1 h1:6bmNXvoeIbvjFWjfbjXg5JGbelLD1haIsMaEIzE9UZI=
 github.com/twbs/icons v1.13.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
 github.com/twbs/icons v1.13.2 h1:JFC5SbgEQfp/zA4NnbwIod6WKlGPSV199H+szopB70E=
